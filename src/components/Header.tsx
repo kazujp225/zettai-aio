@@ -33,8 +33,15 @@ const Header: React.FC = () => {
   return (
     <header className="header">
       <div className="header__logo">
-        <a href="#top" onClick={(e) => handleNavClick(e, '#top')}>
-          <img src="/assets/image/logo0918.png" alt="ZETTAI" />
+        <a href="#top" onClick={(e) => handleNavClick(e, '#top')} style={{ textDecoration: 'none' }}>
+          <span style={{
+            fontSize: '1.5rem',
+            fontWeight: 'bold',
+            color: '#1a1a2e',
+            letterSpacing: '0.05em'
+          }}>
+            OTASUKE GEO
+          </span>
         </a>
       </div>
       <div className="header__navi">
