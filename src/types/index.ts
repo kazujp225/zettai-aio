@@ -1,4 +1,4 @@
-// Data types for the ZETTAI AIO Landing Page
+// Data types for the ZETTAI GEO Landing Page
 
 export interface ResultCard {
   id: string;

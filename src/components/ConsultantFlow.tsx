@@ -69,10 +69,10 @@ const ConsultantFlow: React.FC = () => {
     {
       id: 'overview',
       label: '概要',
-      title: 'AI検索エンジンを分析し、効果の高いAIO戦略を策定',
+      title: 'AI検索エンジンを分析し、効果の高いGEO戦略を策定',
       image: '/assets/image/consultant-flow-step01-pct01.png',
       description:
-        'ChatGPT・Perplexity・Claude・Geminiなど主要AI検索エンジンの特性分析と、3C分析（AI検索市場×競合×自社）を実施し、AIO戦略を策定します。各AIの回答傾向、引用元の特徴、E-E-A-T評価基準を精緻に調査分析し、根拠のある戦略を策定することが可能です。',
+        'ChatGPT・Perplexity・Claude・Geminiなど主要AI検索エンジンの特性分析と、3C分析（AI検索市場×競合×自社）を実施し、GEO戦略を策定します。各AIの回答傾向、引用元の特徴、E-E-A-T評価基準を精緻に調査分析し、根拠のある戦略を策定することが可能です。',
     },
     {
       id: 'market',
@@ -93,9 +93,9 @@ const ConsultantFlow: React.FC = () => {
     {
       id: 'self',
       label: '自社分析',
-      title: 'AIO上の課題や競合サイトとの差分を分析',
+      title: 'GEO上の課題や競合サイトとの差分を分析',
       image: '/assets/image/consultant-flow-step01-pct04.png',
-      description: '自社サイトのAI検索対応状況を分析し、AIO上の課題や競合サイトとの差分を特定します。',
+      description: '自社サイトのAI検索対応状況を分析し、GEO上の課題や競合サイトとの差分を特定します。',
     },
   ];
 
@@ -103,14 +103,14 @@ const ConsultantFlow: React.FC = () => {
     {
       id: 'overview',
       label: '概要',
-      title: 'AIO戦略に基づき、成果に直結する施策を立案',
+      title: 'GEO戦略に基づき、成果に直結する施策を立案',
       image: '/assets/image/consultant-flow-step02-pct01.png',
       description:
-        'AIO戦略に基づき、最短でAI検索での成果に結びつく施策を立案します。AI検索での露出を増やすAIO施策に加え、コンバージョン率を高めるCRO施策を立案・実行することで、AI経由のコンバージョン数の最大化および売上増大を実現します。',
+        'GEO戦略に基づき、最短でAI検索での成果に結びつく施策を立案します。AI検索での露出を増やすGEO施策に加え、コンバージョン率を高めるCRO施策を立案・実行することで、AI経由のコンバージョン数の最大化および売上増大を実現します。',
     },
     {
       id: 'seo',
-      label: 'AIO施策',
+      label: 'GEO施策',
       title: 'AI検索経由のアクセス数増加でCV数を最大化',
       image: '/assets/image/consultant-flow-step02-pct02.png',
       description:
@@ -133,11 +133,11 @@ const ConsultantFlow: React.FC = () => {
       title: '施策の実行・実装を手厚くサポート',
       image: '/assets/image/consultant-flow-step03-pct01.png',
       description:
-        '施策毎に実装手順書やマニュアルを作成し、電話・メール・チャット・ミーティングで実装をサポートします。また、社内エンジニアや開発会社、記事制作会社、代理店等との連携やディレクションを行うことも可能です。AIOコンテンツの制作に関しては、AIに選ばれるコンテンツ設計から構成案作成、ライティングまでまとめてご依頼いただけます。',
+        '施策毎に実装手順書やマニュアルを作成し、電話・メール・チャット・ミーティングで実装をサポートします。また、社内エンジニアや開発会社、記事制作会社、代理店等との連携やディレクションを行うことも可能です。GEOコンテンツの制作に関しては、AIに選ばれるコンテンツ設計から構成案作成、ライティングまでまとめてご依頼いただけます。',
     },
     {
       id: 'content',
-      label: 'AIOコンテンツ制作',
+      label: 'GEOコンテンツ制作',
       title: 'AIに選ばれる構造と信頼性でAI検索上位を獲得するコンテンツを制作',
       image: '/assets/image/consultant-flow-step03-pct02.jpg',
       description:
@@ -174,7 +174,7 @@ const ConsultantFlow: React.FC = () => {
 
   return (
     <section id="content--consultant-flow" className="content">
-      <h2 className="heading">AIOコンサルティングの流れ</h2>
+      <h2 className="heading">GEOコンサルティングの流れ</h2>
       <p className="lead">戦略策定から効果検証まで一気通貫で支援します。</p>
 
       <FlowStep

@@ -14,7 +14,7 @@ const flickityOptions = {
 const Consultants: React.FC = () => {
   return (
     <section id="content--seo-consultant" className="content content--pale-blue">
-      <h2 className="heading">AIOコンサルタント</h2>
+      <h2 className="heading">GEOコンサルタント</h2>
       <p className="lead">
         AI検索最適化に精通した
         <br className="u-sm-hidden" />

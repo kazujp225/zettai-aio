@@ -5,7 +5,7 @@ const Features: React.FC = () => {
   return (
     <section id="content--feature" className="content">
       <h2 className="heading">
-        <span className="text-sm">ZETTAIのAIOコンサルティング</span>
+        <span className="text-sm">ZETTAIのGEOコンサルティング</span>
         <br />
         4つの特長
       </h2>

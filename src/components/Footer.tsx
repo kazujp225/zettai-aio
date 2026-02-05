@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
             <section className="footer__btn-section footer__btn-section--consultant tw-text-center">
               <h2 className="tw-font-black">ご相談・お問い合わせ</h2>
               <p>
-                AIOに関するご質問やご相談など、
+                GEOに関するご質問やご相談など、
                 <br />
                 お気軽にお問い合わせください。
               </p>

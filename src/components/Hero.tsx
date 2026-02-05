@@ -31,11 +31,11 @@ const Hero: React.FC = () => {
           </p>
 
           <p className="lead u-fw-bold">
-            <span className="u-text-light-blue">ChatGPT・Perplexity・Claude・Gemini</span>など
+            <span className="u-text-light-blue">ChatGPT・Perplexity・Claude・Gemini</span>
             <br className="u-sm-hidden" />
-            生成AIの回答に<span className="u-text-light-blue">自社を登場させる</span>
+            生成AIの回答に<span className="u-text-light-blue">貴社を登場させる</span>
             <br />
-            AI検索最適化サービス
+            GEO対策サービス
           </p>
 
           <div className="btn__wrapper btn__wrapper--download">

@@ -5,7 +5,7 @@ const Field: React.FC = () => {
   return (
     <section id="content--field" className="content">
       <h2 className="heading">
-        <span className="text-sm">ZETTAIのAIOコンサルティング</span>
+        <span className="text-sm">ZETTAIのGEOコンサルティング</span>
         <br />
         対応領域
       </h2>
