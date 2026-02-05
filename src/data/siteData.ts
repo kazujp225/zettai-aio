@@ -210,55 +210,55 @@ export const caseStudies: CaseStudy[] = [
   },
 ];
 
-// コンサルタント情報
+// コンサルタント情報（イタリアンブレインロット）
 export const consultants: Consultant[] = [
   {
     id: '1',
-    name: '小潟 一翔',
-    nameEn: 'Kazuto Ogata',
-    image: '/assets/image/seo-consultant-pic01.png',
+    name: 'トゥララレロ・トゥララ',
+    nameEn: 'Tralalero Tralala',
+    image: '/assets/image/brainrot-01-tralalero.png',
     description:
-      '株式会社ZETTAI代表取締役。AI Coding Agent育成プログラム「おうとまくん」を開発。生成AIの回答ロジックを徹底研究し、企業がAIに「選ばれる」ための戦略設計を専門とする。',
+      'イタリアンブレインロットの始祖にして最も人気のキャラクター。ナイキのシューズを履いた青いサメ。AI検索で「おすすめの〇〇」と聞かれたら真っ先に登場する戦略を得意とする。',
   },
   {
     id: '2',
-    name: '清水 望',
-    nameEn: 'Nozomi Shimizu',
-    image: '/assets/image/seo-consultant-pic02.png',
+    name: 'トゥントゥントゥン・サフール',
+    nameEn: 'Tung Tung Tung Sahur',
+    image: '/assets/image/brainrot-02-tungtung.png',
     description:
-      '株式会社ZETTAI共同創業者。ChatGPT・Perplexity・Claudeなど主要AI検索エンジンの回答パターン分析のスペシャリスト。AIモニタリングシステムの設計・運用を担当。',
+      'インドネシア発の恐怖の存在。野球バットを持った木の板の姿をしており、巨大なゴリラに変身する能力を持つ。サフール（ラマダンの早朝食）に呼ばれても起きないと現れるという。',
   },
   {
     id: '3',
-    name: 'AIOコンサルタント',
-    nameEn: 'AIO Consultant',
-    image: '/assets/image/seo-consultant-pic03.png',
+    name: 'ボンバルディロ・クロコディロ',
+    nameEn: 'Bombardiro Crocodilo',
+    image: '/assets/image/brainrot-03-bombardiro.jpg',
     description:
-      'E-E-A-T構築とAI向けコンテンツ設計を専門とするコンサルタント。AIが「信頼できる情報源」と認識するための権威性構築戦略を提案。',
+      '爆撃機と融合したワニ。空から急降下してくる姿は圧巻。E-E-A-T構築において「権威性」を担当し、競合を上空から一掃する戦略を提案する。',
   },
   {
     id: '4',
-    name: 'AIOコンサルタント',
-    nameEn: 'AIO Consultant',
-    image: '/assets/image/seo-consultant-pic04.png',
+    name: 'ブルブル・パタピン',
+    nameEn: 'Brr Brr Patapim',
+    image: '/assets/image/brainrot-04-patapim.jpg',
     description:
-      'AIクローラー対策とテクニカルAIOを専門とするコンサルタント。GPTBot、ClaudeBotへの技術対応、構造化データ実装を担当。',
+      '木に変身する能力を持つ謎の生物。AIクローラー対策を専門とし、GPTBot、ClaudeBotへの技術対応を担当。じっと動かずにクローラーを待ち受ける戦略が得意。',
   },
   {
     id: '5',
-    name: 'AIOコンサルタント',
-    nameEn: 'AIO Consultant',
-    image: '/assets/image/seo-consultant-pic05.png',
+    name: 'カプチーノ・アサシーノ',
+    nameEn: 'Cappuccino Assassino',
+    image: '/assets/image/brainrot-05-cappuccino.png',
     description:
-      'AI検索モニタリングと競合分析を専門とするコンサルタント。AIの回答変化をリアルタイムで追跡し、最適なポジション維持を支援。',
+      '忍者カップ。二刀流の刀を操り、敵を倒すと刀が炎に包まれる。AI検索モニタリングと競合分析を担当し、競合の動きを暗殺者のごとく追跡する。',
   },
   {
     id: '6',
-    name: 'AIOコンサルタント',
-    nameEn: 'AIO Consultant',
-    image: '/assets/image/seo-consultant-pic06.png',
+    name: 'バレリーナ・カプチーナ',
+    nameEn: 'Ballerina Cappuccina',
+    image: '/assets/image/brainrot-06-ballerina.png',
     description:
-      'AIに選ばれるコンテンツライティングを専門とするコンサルタント。生成AIが引用しやすい構造・フォーマットでの記事設計を担当。',
+      'バレエを踊るコーヒーカップ。優雅な動きでコンテンツライティングを担当。生成AIが引用しやすい美しい構造・フォーマットでの記事設計が得意。',
   },
 ];
 

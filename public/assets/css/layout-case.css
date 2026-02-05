@@ -97,3 +97,65 @@
     padding-top: 16px;
   }
 }
+
+/* Flickity navigation button override - bottom position */
+.flickity-prev-next-button {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: 2px solid #0066cc !important;
+  border-radius: 50% !important;
+  width: 44px !important;
+  height: 44px !important;
+  opacity: 1 !important;
+  transition: all 0.3s ease !important;
+  top: auto !important;
+  bottom: -60px !important;
+  transform: none !important;
+}
+
+.flickity-prev-next-button:hover {
+  background: #0066cc !important;
+}
+
+.flickity-prev-next-button:hover .flickity-button-icon {
+  fill: white !important;
+}
+
+.flickity-prev-next-button .flickity-button-icon {
+  display: block !important;
+  fill: #0066cc !important;
+  position: absolute !important;
+  left: 20% !important;
+  top: 20% !important;
+  width: 60% !important;
+  height: 60% !important;
+}
+
+.flickity-prev-next-button.previous {
+  left: calc(50% - 60px) !important;
+}
+
+.flickity-prev-next-button.next {
+  right: calc(50% - 60px) !important;
+}
+
+/* Add padding to carousel container for bottom buttons */
+.card__wrapper.flickity {
+  padding-bottom: 80px !important;
+}
+
+@media screen and (max-width: 767px) {
+  .flickity-prev-next-button {
+    width: 40px !important;
+    height: 40px !important;
+    bottom: -50px !important;
+  }
+  .flickity-prev-next-button.previous {
+    left: calc(50% - 50px) !important;
+  }
+  .flickity-prev-next-button.next {
+    right: calc(50% - 50px) !important;
+  }
+  .card__wrapper.flickity {
+    padding-bottom: 70px !important;
+  }
+}
