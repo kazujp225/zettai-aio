@@ -91,3 +91,12 @@ export interface CompanyInfo {
   label: string;
   value: string;
 }
+
+export interface NewsArticle {
+  id: string;
+  title: string;
+  source: string;
+  url: string;
+  category: 'research' | 'case' | 'trend' | 'technology';
+  highlight?: string;
+}

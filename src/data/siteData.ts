@@ -9,6 +9,7 @@ import type {
   ContractStep,
   FAQItem,
   CompanyInfo,
+  NewsArticle,
 } from '../types';
 
 // 実績データ: 生成AI検索での具体的成果
@@ -421,6 +422,82 @@ export const contactInfo = {
   hours: '平日10:00〜18:00（土日祝日除く）',
   email: 'contact@zettai.co.jp',
 };
+
+// 業界ニュース・メディア記事
+export const newsArticles: NewsArticle[] = [
+  {
+    id: '1',
+    title: '生成AIのサイト流入影響を83社独自調査　「脅威」より「機会」が約7割',
+    source: '日経クロストレンド',
+    url: 'https://xtrend.nikkei.com/atcl/contents/18/01263/00007/',
+    category: 'research',
+    highlight: '83社調査で7割が「機会」',
+  },
+  {
+    id: '2',
+    title: '【特報】食べログが26年に「ChatGPTより使える」対話型AIをアプリに搭載',
+    source: '日経クロストレンド',
+    url: 'https://xtrend.nikkei.com/atcl/contents/18/01263/00002/',
+    category: 'case',
+    highlight: '食べログがAI搭載へ',
+  },
+  {
+    id: '3',
+    title: 'AI時代を勝ち抜く「GEO／AIO」戦略の最前線　SEOとは何が違う？',
+    source: '日経クロストレンド',
+    url: 'https://xtrend.nikkei.com/atcl/contents/18/01263/00003/',
+    category: 'trend',
+    highlight: 'GEO/AIO戦略の最前線',
+  },
+  {
+    id: '4',
+    title: '「LLMO」「GEO」「AEO」「AIO」…　乱立するAI最適化ワードの違い',
+    source: '日経クロストレンド',
+    url: 'https://xtrend.nikkei.com/atcl/contents/18/01240/00004/',
+    category: 'trend',
+    highlight: 'AI最適化用語を解説',
+  },
+  {
+    id: '5',
+    title: 'AIで激変「検索」「EC」…5大カテゴリー　クリック率半減の危機',
+    source: '日経クロストレンド',
+    url: 'https://xtrend.nikkei.com/atcl/contents/18/01263/00001/',
+    category: 'research',
+    highlight: 'クリック率半減の危機',
+  },
+  {
+    id: '6',
+    title: '担当者の6割超がAIで検索流入減を実感　「AIO」「LLMO」は今すぐ必要か',
+    source: '日経クロストレンド',
+    url: 'https://xtrend.nikkei.com/atcl/contents/casestudy/00012/01705/',
+    category: 'research',
+    highlight: '6割超が流入減を実感',
+  },
+  {
+    id: '7',
+    title: 'SEOはもう古い。最新のAIマーケティング「AEO」とは何か…急増中の新鋭スタートアップ30社リスト',
+    source: 'Business Insider Japan',
+    url: 'https://www.businessinsider.jp/article/seo-aeo-ai-chatbots-search-startups-chatgpt-openai-google-b/',
+    category: 'trend',
+    highlight: 'AEOスタートアップ30社',
+  },
+  {
+    id: '8',
+    title: 'GoogleマップにAI質問機能が追加　「この場所についてマップに質問する」の仕組みと注意点まとめ',
+    source: 'Go Local',
+    url: 'https://go-local.jp/2025/11/1169/',
+    category: 'technology',
+    highlight: 'GoogleマップにAI機能',
+  },
+  {
+    id: '9',
+    title: 'Googleマップに4つの新機能、AI「Gemini」で旅行先で役立つ情報を表示',
+    source: 'Yahoo!ニュース',
+    url: 'https://news.yahoo.co.jp/articles/9008d618c5a8422461dabe29b63',
+    category: 'technology',
+    highlight: 'Geminiが新機能搭載',
+  },
+];
 
 // GEO対策用メタデータ
 export const geoMetadata = {

@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Results from './components/Results';
 import Issues from './components/Issues';
+import NewsMedia from './components/NewsMedia';
 import Features from './components/Features';
 import Field from './components/Field';
 import CTA from './components/CTA';
@@ -35,6 +36,9 @@ const App: React.FC = () => {
 
         {/* Problems solved */}
         <Issues />
+
+        {/* Industry News & Media */}
+        <NewsMedia />
 
         {/* 4 Features */}
         <Features />
