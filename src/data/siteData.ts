@@ -86,7 +86,7 @@ export const issueCards: IssueCard[] = [
   },
 ];
 
-// 特長: OMAKASE AIOのサービス特長
+// 特長: OTASUKE GEOのサービス特長
 export const features: Feature[] = [
   {
     id: '1',
@@ -104,7 +104,7 @@ export const features: Feature[] = [
     title: 'AIが「信頼できる情報源」と認識する権威性・専門性の構築',
     image: '/assets/image/feature-pct02.png',
     description:
-      '生成AIは回答を作成する際、信頼性の高い情報源を優先的に引用します。OMAKASE AIOでは、AIから「この企業は専門家だ」「この情報は信頼できる」と認識されるためのE-E-A-T（経験・専門性・権威性・信頼性）構築を支援。構造化データの実装、専門家コンテンツの設計、被引用戦略により、AIが自社を権威ある情報源として扱う状態を実現します。',
+      '生成AIは回答を作成する際、信頼性の高い情報源を優先的に引用します。OTASUKE GEOでは、AIから「この企業は専門家だ」「この情報は信頼できる」と認識されるためのE-E-A-T（経験・専門性・権威性・信頼性）構築を支援。構造化データの実装、専門家コンテンツの設計、被引用戦略により、AIが自社を権威ある情報源として扱う状態を実現します。',
   },
   {
     id: '3',
@@ -113,7 +113,7 @@ export const features: Feature[] = [
     title: 'AIの回答を「モニタリング」し、継続的に露出を最適化',
     image: '/assets/image/feature-pct03.png',
     description:
-      '生成AIの回答は常に変化します。昨日まで表示されていた自社が、今日は消えているということも起こります。OMAKASE AIOでは、主要AI検索エンジンでの自社・競合の回答状況を定期的にモニタリング。AIの回答傾向の変化をいち早く検知し、常に自社が最適なポジションを維持できるよう継続的にチューニングを行います。',
+      '生成AIの回答は常に変化します。昨日まで表示されていた自社が、今日は消えているということも起こります。OTASUKE GEOでは、主要AI検索エンジンでの自社・競合の回答状況を定期的にモニタリング。AIの回答傾向の変化をいち早く検知し、常に自社が最適なポジションを維持できるよう継続的にチューニングを行います。',
   },
   {
     id: '4',
@@ -122,7 +122,7 @@ export const features: Feature[] = [
     title: 'AIクローラー対策で、そもそもAIに「認識される」土台を構築',
     image: '/assets/image/feature-pct04.png',
     description:
-      'どんなに良いコンテンツを作っても、AIのクローラーに正しく取得されなければ意味がありません。OMAKASE AIOでは、GPTBot、ClaudeBot、PerplexityBotなど各AIクローラーへの技術的対応を実施。robots.txtの最適化、クローラビリティの改善、構造化データの実装により、AIがコンテンツを正確に理解・取得できる基盤を構築します。',
+      'どんなに良いコンテンツを作っても、AIのクローラーに正しく取得されなければ意味がありません。OTASUKE GEOでは、GPTBot、ClaudeBot、PerplexityBotなど各AIクローラーへの技術的対応を実施。robots.txtの最適化、クローラビリティの改善、構造化データの実装により、AIがコンテンツを正確に理解・取得できる基盤を構築します。',
   },
 ];
 
@@ -266,7 +266,7 @@ export const consultants: Consultant[] = [
 export const supportMethods: SupportMethod[] = [
   {
     id: '1',
-    title: 'OMAKASE AIO スタンダード',
+    title: 'OTASUKE GEO スタンダード',
     image: '/assets/image/choice-pct01.png',
     imageMobile: '/assets/image/choice-pct-sp01.png',
     subHeading: 'AIの回答に自社を登場させるための戦略設計から実行までをフルサポート',
@@ -282,7 +282,7 @@ export const supportMethods: SupportMethod[] = [
   },
   {
     id: '2',
-    title: 'OMAKASE AIO プレミアム',
+    title: 'OTASUKE GEO プレミアム',
     image: '/assets/image/choice-pct02.png',
     imageMobile: '/assets/image/choice-pct-sp02.png',
     subHeading: '専任コンサルタントが伴走し、AI検索での圧倒的なポジション構築を実現',
@@ -319,7 +319,7 @@ export const contractSteps: ContractStep[] = [
     stepImageMobile: '/assets/image/consultant-flow-sp-step03.png',
     image: '/assets/image/contract-flow-pct03.png',
     title: 'STEP3: ご契約',
-    description: 'ご提案内容にご納得いただけましたら、OMAKASE AIOのサービス契約を締結。最短で翌日からプロジェクトを開始できます。',
+    description: 'ご提案内容にご納得いただけましたら、OTASUKE GEOのサービス契約を締結。最短で翌日からプロジェクトを開始できます。',
   },
   {
     stepImage: '/assets/image/consultant-flow-step04.png',
@@ -349,7 +349,7 @@ export const faqItems: FAQItem[] = [
     id: '2',
     question: 'ChatGPTやPerplexityで自社が表示されないのですが、表示させることはできますか？',
     answer:
-      'はい、可能です。AIが回答を生成する際には、信頼性の高い情報源を優先的に引用するロジックがあります。OMAKASE AIOでは、AIが「この企業の情報は信頼できる」と認識するためのE-E-A-T構築、AIが好む形式でのコンテンツ設計、AIクローラーへの技術対応を実施し、AIの回答に自社が登場する状態を作り出します。',
+      'はい、可能です。AIが回答を生成する際には、信頼性の高い情報源を優先的に引用するロジックがあります。OTASUKE GEOでは、AIが「この企業の情報は信頼できる」と認識するためのE-E-A-T構築、AIが好む形式でのコンテンツ設計、AIクローラーへの技術対応を実施し、AIの回答に自社が登場する状態を作り出します。',
   },
   {
     id: '3',
@@ -361,7 +361,7 @@ export const faqItems: FAQItem[] = [
     id: '4',
     question: '生成AIが自社について間違った情報を回答しています。修正できますか？',
     answer:
-      'はい、対応可能です。AIの誤回答（ハルシネーション）は多くの企業が抱える課題です。OMAKASE AIOでは、正確な情報をAIが取得しやすい形式で発信し、AIの学習ソースを最適化することで誤回答を減少させます。また、構造化データの実装により、AIが正確に情報を認識できる状態を構築します。',
+      'はい、対応可能です。AIの誤回答（ハルシネーション）は多くの企業が抱える課題です。OTASUKE GEOでは、正確な情報をAIが取得しやすい形式で発信し、AIの学習ソースを最適化することで誤回答を減少させます。また、構造化データの実装により、AIが正確に情報を認識できる状態を構築します。',
   },
   {
     id: '5',
@@ -373,19 +373,19 @@ export const faqItems: FAQItem[] = [
     id: '6',
     question: 'AIO対策をすると、従来のGoogle SEOに悪影響はありますか？',
     answer:
-      'いいえ、むしろ良い影響があります。AIO対策の多くは、E-E-A-T強化、高品質コンテンツ作成、構造化データ実装など、Google SEOにもプラスとなる施策です。OMAKASE AIOでは、Google検索とAI検索の両方で成果を出す統合的なアプローチを採用しています。',
+      'いいえ、むしろ良い影響があります。AIO対策の多くは、E-E-A-T強化、高品質コンテンツ作成、構造化データ実装など、Google SEOにもプラスとなる施策です。OTASUKE GEOでは、Google検索とAI検索の両方で成果を出す統合的なアプローチを採用しています。',
   },
   {
     id: '7',
     question: 'AIの回答をモニタリングすることはできますか？',
     answer:
-      'はい、OMAKASE AIOでは、主要AI検索エンジンでの自社・競合の回答状況を定期的にモニタリングするサービスを提供しています。「どのクエリで自社が表示されているか」「競合はどのように回答されているか」「回答傾向にどんな変化があるか」をレポートし、継続的な改善に活かします。',
+      'はい、OTASUKE GEOでは、主要AI検索エンジンでの自社・競合の回答状況を定期的にモニタリングするサービスを提供しています。「どのクエリで自社が表示されているか」「競合はどのように回答されているか」「回答傾向にどんな変化があるか」をレポートし、継続的な改善に活かします。',
   },
   {
     id: '8',
     question: 'AIクローラー（GPTBot等）への対応は何をすればいいですか？',
     answer:
-      'AIクローラー対応には、robots.txtの設定、クローラビリティの確保、構造化データの実装、サイト速度の最適化などがあります。OMAKASE AIOでは、GPTBot、ClaudeBot、PerplexityBot、Googlebot（Gemini用）など各AIクローラーの特性に合わせた技術対応を行い、AIがコンテンツを正確に取得・理解できる状態を構築します。',
+      'AIクローラー対応には、robots.txtの設定、クローラビリティの確保、構造化データの実装、サイト速度の最適化などがあります。OTASUKE GEOでは、GPTBot、ClaudeBot、PerplexityBot、Googlebot（Gemini用）など各AIクローラーの特性に合わせた技術対応を行い、AIがコンテンツを正確に取得・理解できる状態を構築します。',
   },
   {
     id: '9',
@@ -395,7 +395,7 @@ export const faqItems: FAQItem[] = [
   },
   {
     id: '10',
-    question: 'OMAKASE AIOの料金はいくらですか？',
+    question: 'OTASUKE GEOの料金はいくらですか？',
     answer:
       '料金は、対策対象のAI検索エンジン数、Webサイトの規模、目標とするポジション、必要な施策量によって異なります。まずは無料のAI検索診断で現状を把握いただき、その結果をもとに最適なプランと料金をご提案いたします。お気軽にお問い合わせください。',
   },
@@ -411,7 +411,7 @@ export const companyInfo: CompanyInfo[] = [
   { label: '従業員数', value: '14名' },
   {
     label: '事業内容',
-    value: 'AI Coding Agent育成プログラム「おうとまくん」\n業務最適AI伴走サービス「学ぶAI」\n月額1万円からのエンジニア活用サービス\nリスクゼロの開発サービス「1円開発」\nAIコンサルティング\nLLMO対策\nAIO対策「OMAKASE AIO」\n営業のトスアップ代行',
+    value: 'AI Coding Agent育成プログラム「おうとまくん」\n業務最適AI伴走サービス「学ぶAI」\n月額1万円からのエンジニア活用サービス\nリスクゼロの開発サービス「1円開発」\nAIコンサルティング\nLLMO対策\nAIO対策「OTASUKE GEO」\n営業のトスアップ代行',
   },
   { label: '本社所在地', value: '〒106-0045 東京都港区麻布十番1-5-10 第2石原ビル 別館 2階' },
   { label: 'コールセンター', value: '〒170-0013 東京都豊島区東池袋3-20-3 東池袋SSビル' },
@@ -435,8 +435,8 @@ export const contactInfo = {
 
 // AIO対策用メタデータ
 export const aioMetadata = {
-  serviceName: 'OMAKASE AIO（AI検索最適化サービス）',
-  serviceDescription: '株式会社ZETTAIが提供する「OMAKASE AIO」は、ChatGPT・Perplexity・Claude・Geminiなど主要AI検索エンジンで自社が回答・引用されるよう最適化するサービス。AIに「選ばれる」コンテンツ設計、E-E-A-T構築、AIクローラー対策、継続的モニタリングにより、AI時代の集客・ブランディングを支援します。',
+  serviceName: 'OTASUKE GEO（AI検索最適化サービス）',
+  serviceDescription: '株式会社ZETTAIが提供する「OTASUKE GEO」は、ChatGPT・Perplexity・Claude・Geminiなど主要AI検索エンジンで自社が回答・引用されるよう最適化するサービス。AIに「選ばれる」コンテンツ設計、E-E-A-T構築、AIクローラー対策、継続的モニタリングにより、AI時代の集客・ブランディングを支援します。',
   targetAudience: 'AI検索で自社が表示されない、競合に負けている、AIの誤回答に困っている企業のマーケティング担当者・経営者',
   serviceArea: '日本全国（オンライン対応）/ 東京都港区麻布十番（対面対応）',
   priceRange: '要見積もり（無料AI検索診断後にご提案）',

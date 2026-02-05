@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
             </span>
             <br />
             <h1 className="u-fw-bold heading" style={{ fontSize: '2.8rem', color: '#1a1a2e' }}>
-              OMAKASE AIO
+              OTASUKE GEO
             </h1>
           </div>
 
