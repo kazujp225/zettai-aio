@@ -4,7 +4,6 @@ export interface ResultCard {
   id: string;
   heading: string;
   image: string;
-  logo: string;
   companyName: string;
   type: string;
 }
@@ -34,7 +33,6 @@ export interface CaseStudy {
   id: string;
   heading: string;
   image: string;
-  logo: string;
   companyName: string;
   type: string;
   link: string;

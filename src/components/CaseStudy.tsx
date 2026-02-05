@@ -44,9 +44,6 @@ const CaseStudy: React.FC = () => {
                   <img src={caseItem.image} alt={caseItem.companyName} />
                 </p>
                 <div className="company">
-                  <p className="logo">
-                    <img src={caseItem.logo} alt={caseItem.companyName} />
-                  </p>
                   <div className="name-wrapper">
                     <p className="name">{caseItem.companyName}</p>
                     <p className="type">{caseItem.type}</p>

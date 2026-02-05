@@ -53,9 +53,6 @@ const Results: React.FC = () => {
                 <img src={card.image} alt={card.companyName} />
               </p>
               <p className="company">
-                <span className="logo">
-                  <img src={card.logo} alt={card.companyName} />
-                </span>
                 <span className="name">
                   {card.companyName}
                   <br />
